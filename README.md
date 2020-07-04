@@ -1,6 +1,7 @@
 # covid_19_tracker
 
-A new Flutter application.
+Based on code snippet from alligator.io posted by Paul Halliday
+https://alligator.io/flutter/geolocator-plugin/
 
 ## Getting Started
 
