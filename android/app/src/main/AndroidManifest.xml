@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="blog.globalquality.covid_19_tracker">
-    <!-- this app uses a geolocator plugin to access the device's location -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- this app accesses the device's location and nearby connections -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -12,6 +12,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="covid_19_tracker"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDse1tc6O54AW0SeQ1CcIxZa-cpnJOC-ps"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

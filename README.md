@@ -1,10 +1,10 @@
 # covid_19_tracker
 
-A new Flutter application.
+COVID-19 Tracker
+Displays COVID-19 information based upon location.  User locations are stored when a user has
+stopped traveling.  User may provide contact tracing details for locations.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
